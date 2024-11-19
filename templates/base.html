@@ -428,8 +428,8 @@ a {
     <header class="header">
         <nav class="nav__bar container-nav">
            <div class="nav__data">
-              <a href="#" class="nav__logo">
-                 <i class="ri-planet-line"></i> <b>CampHub</b>
+              <a href="{% url 'static\images\campus-logo.png' %}" class="nav__logo">
+                <b>CampHub</b>
               </a>
               
               <div class="nav__toggle" id="nav-toggle">
@@ -582,5 +582,7 @@ const showMenu = (toggleId, navId) =>{
 showMenu('nav-toggle','nav-menu')
     </script>
     {% block extra_js %}{% endblock %}
+
+
 </body>
 </html>
